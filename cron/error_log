@@ -1,0 +1,6 @@
+[05-Jan-2020 11:26:02 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mafiovrx/public_html/cron/bank_renter.php on line 8
+[05-Jan-2020 11:26:02 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/mafiovrx/public_html/cron/bank_renter.php on line 11
+[05-Jan-2020 11:27:05 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mafiovrx/public_html/cron/bank_renter.php on line 8
+[05-Jan-2020 11:27:05 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/mafiovrx/public_html/cron/bank_renter.php on line 11
+[05-Jan-2020 11:27:16 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mafiovrx/public_html/cron/bank_renter.php on line 8
+[05-Jan-2020 11:27:16 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/mafiovrx/public_html/cron/bank_renter.php on line 11

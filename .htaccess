@@ -1,0 +1,21 @@
+php_value max_execution_time 300
+
+Options +FollowSymlinks -Indexes
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ %1 [L,R=301,NE]
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteCond %{REQUEST_URI} ^(.*/)index\.php$ [NC]
+RewriteRule ^ %1 [L,R=301,NE]
+
+# PHP Memory Limit
+php_value memory_limit 128M
+
+#specify character coding
+AddDefaultCharset utf-8 
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

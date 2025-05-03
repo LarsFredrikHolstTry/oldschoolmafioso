@@ -1,0 +1,7 @@
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Warning:  include(./auth.php): failed to open stream: No such file or directory in /home/mafiovrx/public_html/functions/function.php on line 4
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Warning:  include(./auth.php): failed to open stream: No such file or directory in /home/mafiovrx/public_html/functions/function.php on line 4
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Warning:  include(): Failed opening './auth.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/mafiovrx/public_html/functions/function.php on line 4
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/mafiovrx/public_html/functions/function.php on line 6
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Notice:  Undefined variable: con in /home/mafiovrx/public_html/functions/function.php on line 7
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/mafiovrx/public_html/functions/function.php on line 7
+[23-Feb-2020 09:08:08 Europe/Berlin] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/mafiovrx/public_html/functions/function.php on line 7

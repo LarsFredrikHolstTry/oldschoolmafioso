@@ -7,7 +7,7 @@ if(!isset($_SESSION)) {
 $servername = "localhost";
 $user = "root";
 $pass = "";
-$db = "mafiovrx_mafioso2";
+$db = "mafiovrx_mafioso";
 
 $con = mysqli_connect($servername, $user, $pass, $db);
 
